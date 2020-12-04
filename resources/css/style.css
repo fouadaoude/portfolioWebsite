@@ -1,3 +1,292 @@
-body {
-    
+* {
+    box-sizing: border-box;
 }
+body {
+   font-family: 'Space Mono'; 
+   font-size: 16px;
+   margin: 0;
+   background-color: #3f4b55;
+}
+
+
+
+
+
+/* nav items <start> */
+
+nav {
+    width: 100%;
+    background-color: #5cc3ec;;
+    position: fixed;
+    padding-left: 1rem;
+    color: #3f4b55;
+    border-bottom: 1px solid #336d83;
+}
+
+nav a {
+    color: inherit;
+}
+
+nav li {
+    display: inline-block;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+nav #name {
+    color: white;
+}
+
+nav #name:hover {
+    color: #c1a1e3;
+}
+
+#right {    
+    float: right;
+    padding-right: 4rem;    
+}
+
+nav li:hover {
+    color: #fcfcfc;
+}
+
+
+/* nav items <end> */
+
+
+
+
+
+/* .selfie <start> */
+
+.selfie {
+    padding-top: 10rem;
+}
+
+.selfie img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 325px;
+}
+
+/* .selfie <end> */
+
+
+
+
+
+
+/* .aboutme <start> */
+
+.aboutme {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    color: #c5c9cc;    
+    text-align: left;
+}
+
+.aboutme #hello {
+    padding-left: 1.6px;
+    font-size: 0.8rem;
+    color: #5cc3ec;
+    margin: 0;
+}
+
+.aboutme #name {  
+    font-size: 3rem;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.aboutme #slogan {
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0.55;
+    margin: 0;
+    padding-left: 1px;
+}
+
+.aboutme #paragraph {
+    font-size: 0.8rem;
+    padding-top: 2rem;
+    width: 45%;
+    margin: 0;
+}
+
+.aboutme #paragraph a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #5cc3ec;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.aboutme #paragraph a:hover {
+    color: inherit;
+}
+
+.aboutme h1 {
+    color: white;
+    margin: 0;
+}
+
+
+.aboutme #name:hover {
+    color: #c1a1e3;
+}
+
+/* .aboutme <end> */
+
+
+/* .mid <start> */
+
+.mid {
+    background-color: #5cc3ec;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 1rem;
+}
+
+.mid h2 {
+    padding-top: 1rem;
+    padding-left: 5rem;
+    color: #3f4b55;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.mid li {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.mid h2:hover {
+    color: white;
+}
+
+.mid li:hover {
+    color: white;
+}
+
+.mid ul {
+    padding-left: 8rem;
+    color: #3f4b55;
+    list-style-type: circle;
+
+}
+
+/* .mid <end> */
+
+
+/* .skills <start> */
+
+.skills {
+    display: block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.skills h2 {
+    padding-top: 1rem;
+    color: white;
+}
+
+.skills #languages {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+    color: #1ace13;
+}
+
+.skills #languages:hover {
+    color: white;
+}
+
+.skills #languages:hover:after {  
+    content: " Proficiency: 2/5";
+}
+
+.skills #database {
+    color: #cbd5d9;
+}
+
+.skills #tools {
+    color: #5cc3ec;
+}
+
+.skills li {
+    text-decoration: none;
+    list-style-type: circle;
+    color: #c1c2c2;
+}
+
+/* .skills <end> */
+
+
+
+/* .row && .column <start> */
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* .row && .column <end> */
+
+
+/* footer <start> */
+
+footer {
+    width: 100%;
+    height: 2rem;
+    background-color: #5cc3ec;;
+    border-top: 1px solid white;
+}
+
+footer p {
+    margin: 0;
+    padding-left: 3.5rem;
+}
+
+/* footer <end> */
+
+
+
+
+/* External Fonts */
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dPIFZifjKcF5UAWdDRYEF8RXi4EwQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
