@@ -9,14 +9,11 @@ body {
 }
 
 
-
-
-
 /* nav items <start> */
 
 nav {
     width: 100%;
-    background-color: #5cc3ec;;
+    background-color: #5cc3ec;
     position: fixed;
     padding-left: 1rem;
     color: #3f4b55;
@@ -91,9 +88,32 @@ nav li:hover {
     text-align: left;
 }
 
+.aboutme #button {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    color: lightgray;
+    background-color: #3f4b55;
+    border: 1px solid #5cc3ec;
+    -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    -ms-transition: color 0.7s;
+    -o-transition: color 0.7s;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+}
+
+.aboutme #button:hover {
+    background-color: #5cc3ec;
+    color: #3f4b55;
+}
+
+.aboutme #button:focus {
+    outline: none;
+}
+
 .aboutme #hello {
     padding-left: 1.6px;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: #5cc3ec;
     margin: 0;
 }
@@ -109,15 +129,14 @@ nav li:hover {
 
 .aboutme #slogan {
     font-size: 1.5rem;
-    color: white;
-    opacity: 0.55;
+    color: lightgray;
     margin: 0;
     padding-left: 1px;
 }
 
 .aboutme #paragraph {
-    font-size: 0.8rem;
-    padding-top: 2rem;
+    font-size: 1rem;
+    padding-top: 3rem;
     width: 45%;
     margin: 0;
 }
@@ -197,6 +216,9 @@ nav li:hover {
 /* .mid <end> */
 
 
+
+
+
 /* .skills <start> */
 
 .skills {
@@ -216,23 +238,92 @@ nav li:hover {
     -ms-transition: color 0.4s;
     -o-transition: color 0.4s;
     transition: color 0.4s;
-    color: #1ace13;
+    color: #9fd48c;
 }
 
 .skills #languages:hover {
     color: white;
 }
 
-.skills #languages:hover:after {  
-    content: " Proficiency: 2/5";
+.skills #languages.c:hover:after {  
+    color: #9fd48c;
+    content: " Intermediate";
+}
+
+.skills #languages.py:hover:after {
+    color: #9fd48c;
+    content: " Advanced";
+}
+
+.skills #languages.js:hover:after {
+    color: #9fd48c;
+    content: " Beginner";
+}
+
+.skills #languages.java:hover:after {
+    color: #9fd48c;
+    content: " Intermediate";
+}
+
+.skills #languages.php:hover:after {
+    color: #9fd48c;
+    content: " Intermediate";
+}
+
+.skills #languages.html:hover:after {
+    color: #9fd48c;
+    content: " Advanced";
+}
+
+.skills #languages.css:hover:after {
+    color: #9fd48c;
+    content: " Intermediate";
 }
 
 .skills #database {
     color: #cbd5d9;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.skills #database:hover {
+    color: #e6b214;
+}
+
+.skills #database.mysql:hover:after {
+    color: #cbd5d9;
+    content: " Intermediate";
+}
+
+.skills #database.mssql:hover:after {
+    color: #cbd5d9;
+    content: " Intermediate";
 }
 
 .skills #tools {
-    color: #5cc3ec;
+    color: #ff7f7f;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.skills #tools:hover {
+    color: #ac00cc;
+}
+
+.skills #tools.vscode:hover:after {    
+    color: #ff7f7f;
+    content: " Advanced";
+}
+
+.skills #tools.git:hover:after {
+    color: #ff7f7f;
+    content: " Intermediate";
 }
 
 .skills li {
@@ -243,6 +334,50 @@ nav li:hover {
 
 /* .skills <end> */
 
+
+/* .projects <start> */
+
+.projects {
+    display: block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.projects h2 {
+    color: white;
+}
+
+.projects h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5cc3ec;
+}
+
+.projects li {
+    list-style-type: circle;
+    color: white;
+}
+
+.projects p {
+    color: #c5c9cc;    
+}
+
+.projects a {
+    text-decoration: none;
+    color: white;
+}
+
+.projects #website-download:hover:after {
+    color: #5cc3ec;
+    content: " Download .zip file";
+}
+
+.projects #desktop-download.git:hover:after {
+    color: #5cc3ec;
+    content: " Git Repository";
+}
+
+/* .projects <end> */
 
 
 /* .row && .column <start> */
@@ -265,10 +400,13 @@ nav li:hover {
 /* footer <start> */
 
 footer {
+    display: block;
     width: 100%;
-    height: 2rem;
+    min-height: 100%;
+    height: auto;
     background-color: #5cc3ec;;
-    border-top: 1px solid white;
+    border-top: 1px solid #336d83;
+    margin-top: 11rem;
 }
 
 footer p {

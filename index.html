@@ -13,52 +13,91 @@
             <a href="#home"><li id="name">Fouad Aoude</li></a>
             <a href="#aboutme"><li id="right">About Me</li></a>
             <a href="#contactme"><li id="right">Contact Me</li></a>
-            <a href="#skills"><li id="right">Skills</li></a>
             <a href="#projects"><li id="right">Projects</li></a>
+            <a href="#skills"><li id="right">Skills</li></a>            
         </ul>
     </nav>
 
-    <div class="aboutme">
+    <div id="home" class="aboutme">
         <h1 id="hello">Hi, my name is</h1>
         <h1 id="name">Fouad Aoude.</h1>
         <p id="slogan">I build desktop applications and websites.</p>
         <p id="paragraph">I am an aspiring software engineer based in Detroit, MI.
-            Currently studying at <a href="http://wayne.edu" target="_blank">Wayne State University</a>, Hope to be an adept student
+            Currently studying at <a href="http://wayne.edu" target="_blank">Wayne State University</a>, Hope to become an expert
             in the artificial intelligence field as well as continuing my hobby of 
             creating innovative websites.         
         </p>
-
+        <button id="button">Contact Me</button>
     </div>    
 
     <div class="row">
-        <div class="skills">
+        <div id="skills" class="skills">
             <h2>Computer Skills</h2>
             <div class="column">
-                <h3 id="languages">Programming Languages</h3>
+                <h3 id="languages">_Programming Languages</h3>
                 <ul>                
-                    <li id="languages" class="c">C</li>
-                    <li id="languages">Python</li>
-                    <li id="languages">javaScript</li>
-                    <li id="languages">Java</li>
-                    <li id="languages">PHP</li>
+                    <li class="c" id="languages" >C</li>
+                    <li class="py" id="languages">Python</li>
+                    <li class="js" id="languages">javaScript</li>
+                    <li class="java" id="languages">Java</li>
+                    <li class="php" id="languages">PHP</li>
+                </ul>
+                <h3 id="languages">Other</h3>
+                <ul>                                        
+                    <li class="html" id="languages">HTML</li>
+                    <li class="css" id="languages">CSS</li>                    
                 </ul>
             </div>
             
             <div class="column">
                 <h3 id="database">Database Management</h3>
                 <ul>
-                    <li id="database">MySQL</li>
-                    <li id="database">Microsoft SQL Server</li>
+                    <li class="mysql" id="database">MySQL</li>
+                    <li class="mssql" id="database">Microsoft SQL Server</li>
                 </ul>
             </div>
 
             <div class="column">
                 <h3 id="tools">Tools</h3>
                 <ul>
-                    <li id="tools">Visual Studio Code</li>
+                    <li class="vscode" id="tools">Visual Studio Code</li>
+                    <li class="git" id="tools">Git</li>
                 </ul>
             </div>
         </div>
+    </div>
+
+    <div class="row">
+        <div id="projects" class="projects">
+            <h2>Projects</h2>
+            <h3>Websites</h3>
+            
+            <ol>
+                <li><a id="website-download" href="resources/projects/pet_best.zip">PetBest</a></li>
+                    <p>As part of a school project we had a real client that had their own specific desires
+                        for how they wanted their website as well as desktop application. This company is a 
+                        pet grooming service. As i entered the class i took part in the backend team and began
+                        to create ways for the front end and backend to communicate, as well as made communication 
+                        with the database possible. This was all made possible with <a style="color: #5cc3ec;">PHP, javaScript,  HTML,  CSS, 
+                        MySQL</a>
+                    </p>
+                </li></li>
+                <li><a id="desktop-download" class="git" href="https://github.com/fouadaoude/portfolioWebsite" target="_blank">This Website!</a></li>
+            </ol>
+
+            <h3>Desktop Applications</h3>
+            <ol>
+                <li><a id="website-download" href="resources/projects/virtual_diary.zip">Virtual Diary</a></li>
+                    <p>This was the first ever project i have ever committed to and followed through to the end,
+                        created in <a style="color:#5cc3ec;">Java</a> although this project may be riddled with bugs, it is still useful and the
+                        process of making it was an enjoyable one but most importantly I learned a lot! 
+                        <div style="color:white;">(If you plan on using this you must create the database tables yourself)</div>
+                    </p>
+                </li></li>
+            </ol>
+        </div>        
+    </div>
+
     </div>
 
     <div class="mid">
@@ -69,6 +108,14 @@
             <li>Removed, replaced and repaired engines, transmissions and all other mechanical parts.</li>
             <li>Ensured that customer and employee areas were kept clean and organized.</li>
             <li>Supervised vehicle work also ensured timely completion of vehicle services.</li>
+            <li>Introduced new approaches to old or not optimal processes in sales and operations.</li>
+            <li>Managed inventory to ensure parts availability while minimizing inventory costs.</li>
+            <li>Analyzed the operation of the department and provides technical assistance to the employees of automobile parts.</li>
+            <li>Resolved customer complaints to mutual satisfaction.</li>
+
+
+
+
         </ul>
 
     </div>
