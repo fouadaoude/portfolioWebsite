@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="resources/javaScript/script.js"></script>    
     <title>Fouad | Aoude</title>
 </head>
 <body>
@@ -12,7 +14,7 @@
         <ul>
             <a href="#home"><li id="name">Fouad Aoude</li></a>
             <a href="#aboutme"><li id="right">About Me</li></a>
-            <a href="#contactme"><li id="right">Contact Me</li></a>
+            <a href="#home"><li id="right">Contact Me</li></a>
             <a href="#projects"><li id="right">Projects</li></a>
             <a href="#skills"><li id="right">Skills</li></a>            
         </ul>
@@ -23,11 +25,16 @@
         <h1 id="name">Fouad Aoude.</h1>
         <p id="slogan">I build desktop applications and websites.</p>
         <p id="paragraph">I am an aspiring software engineer based in Detroit, MI.
-            Currently studying at <a href="http://wayne.edu" target="_blank">Wayne State University</a>, Hope to become an expert
+            Currently studying at <a href="https://wayne.edu" target="_blank">Wayne State University</a>, Hope to become an expert
             in the artificial intelligence field as well as continuing my hobby of 
             creating innovative websites.         
         </p>
-        <button id="button">Contact Me</button>
+
+        <button id="button" id="contactme" onclick="createContactMeForm()">Contact Me</button>
+        <form action="mailto:aoude13@gmail.com" enctype="text/plain" id="contactMeForm" method="POST">
+
+        </form>
+
     </div>    
 
     <div class="row">

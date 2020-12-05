@@ -18,13 +18,14 @@ nav {
     padding-left: 1rem;
     color: #3f4b55;
     border-bottom: 1px solid #336d83;
+    opacity: 0.945;
 }
 
 nav a {
     color: inherit;
 }
 
-nav li {
+nav li {    
     display: inline-block;
     -webkit-transition: color 0.4s;
     -moz-transition: color 0.4s;
@@ -111,6 +112,97 @@ nav li:hover {
     outline: none;
 }
 
+.aboutme #submitbutton {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    color: lightgray;
+    background-color: #3f4b55;
+    border: 1px solid #5cc3ec;
+    -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    -ms-transition: color 0.7s;
+    -o-transition: color 0.7s;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+}
+
+.aboutme #submitbutton:hover {
+    background-color: #5cc3ec;
+    color: #3f4b55;
+}
+
+.aboutme #submitbutton:focus {
+    outline: none;
+}
+
+.aboutme #contactMeForm {
+    opacity: 0;
+    -webkit-transition: opacity 1.5s;
+    -moz-transition: opacity 1.5s;
+    -ms-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+    padding-top: 2rem;
+    margin: 0;    
+}
+
+.aboutme #contactMeForm.animate {
+    opacity: 1;
+}
+
+.aboutme #contactMeForm label:hover i {
+    transition: color 1s;
+    color:#5cc3ec;
+}
+
+.aboutme #contactMeForm input[type=text]:focus + .i-color {    
+    color: #5cc3ec;
+}
+
+.aboutme #contactMeForm input {
+    font-size: 1rem;
+    font-family: 'Space Mono';
+    transition: color 1s;
+}
+
+
+.aboutme #contactMeForm input[type=text] {
+    width: 300px;
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+.aboutme #contactMeForm input[type=text]:focus {    
+    width: 307px;
+}
+
+.aboutme #contactMeForm input[type=text]:hover {    
+    width: 307px;
+}
+
+.aboutme textarea {
+    height: 2rem;
+    width: 300px;
+    transition: all ease-in-out .2s;
+    appearance: none;
+    -webkit-appearance: none;    
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: .5em;
+    font-size: 1em;
+}
+
+.aboutme textarea:hover {
+    width: 40rem;
+    height: 10rem;
+}
+
+.aboutme textarea:valid {
+    height: 10rem;
+    width: 40rem;
+}
+
+
 .aboutme #hello {
     padding-left: 1.6px;
     font-size: 0.85rem;
@@ -161,13 +253,24 @@ nav li:hover {
     margin: 0;
 }
 
-
 .aboutme #name:hover {
     color: #c1a1e3;
 }
 
 /* .aboutme <end> */
 
+/* .animateForm <start> */
+
+.animateForm {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.animateForm:focus {
+    width: 100%;
+}
+
+/* .animateForm <end> */
 
 /* .mid <start> */
 
