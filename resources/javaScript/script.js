@@ -20,7 +20,3 @@ function createContactMeForm() {
         /* Button to submit form */
       + '<button id="submitbutton">Submit</button>';          
 }
-
-
-function fadeInAnimation() {
-    }
