@@ -14,8 +14,9 @@
         <ul>
             <a href="#home"><li id="name">Fouad Aoude</li></a>
             <a href="#home"><li id="right">About Me</li></a>
-            <a href="#home"><li id="right">Contact Me</li></a>
+            <a href="#education"><li id="right">Education</li></a>
             <a href="#projects"><li id="right">Projects</li></a>
+            <a href="#mid"><li id="right">Experience</li></a>
             <a href="#skills"><li id="right">Skills</li></a>            
         </ul>
     </nav>
@@ -24,10 +25,9 @@
         <h1 id="hello">Hi, my name is</h1>
         <h1 id="name">Fouad Aoude.</h1>
         <p id="slogan">I build desktop applications and websites.</p>
-        <p id="paragraph">I am an aspiring software engineer based in Detroit, MI.
-            Currently studying at <a href="https://wayne.edu" target="_blank">Wayne State University</a>, Hope to become an expert
-            in the artificial intelligence field as well as continuing my hobby of 
-            creating innovative websites.         
+        <p id="paragraph">I am an aspiring Software Engineer based in Dearborn, MI.<br>
+            Pursuant of Bachelors Degree at <a href="https://umdearborn.edu" target="_blank">The University of Michigan</a>. 
+            <br><br>Engineering to allow customers to perform at the highest tier <br>with efficient solutions.
         </p>
 
         <button id="button" id="contactme" onclick="createContactMeForm()">Contact Me</button>
@@ -51,14 +51,19 @@
                 </ul>
                 <div class="row">
                     <h3 id="languages">Other</h3>
+                    <div class="column">
                     <ul>                                                        
                         <li class="html" id="languages">HTML</li>
-                        <li class="css" id="languages">CSS</li>                                                        
-                        <h3 id="spoken">Spoken Languages</h3>
-                        <li class="arabic" id="spoken">Arabic</li>
-                        <li class="english" id="spoken">English</li>
-                    </ul>                
-                </div>
+                        <li class="css" id="languages">CSS</li>                                                                                
+                    </ul>               
+                </div> 
+            </div>
+            
+            <div class="column">
+                <h3 id="languages">Spoken Languages</h3>
+                <li class="arabic" id="languages">Arabic</li>
+                <li class="english" id="languages">English</li>                    
+            </div>
             </div>
             
             <div class="column">
@@ -75,7 +80,7 @@
                     <li class="vscode" id="tools">Visual Studio Code</li>
                     <li class="git" id="tools">Git</li>
                 </ul>
-            </div>
+            </div>            
         </div>
     </div>
 
@@ -100,11 +105,18 @@
             <h3>Desktop Applications</h3>
             <ol>
                 <li><a id="website-download" href="resources/projects/virtual_diary.zip">Virtual Diary</a></li>
-                    <p>This was the first ever project i have ever committed to and followed through to the end,
-                        created in <a style="color:#5cc3ec;">Java</a> although this project may be riddled with bugs, it is still useful and the
+                    <p>This was the first ever GUI project i have ever created.
+                        Created in <a style="color:#5cc3ec;">Java</a> although this project may be riddled with bugs, it is still useful and the
                         process of making it was an enjoyable one but most importantly I learned a lot! 
                         <div style="color:white;">(If you plan on using this you must create the database tables yourself)</div>
                     </p>
+                </li></li>
+                <li><a id="website-download" href="resources/projects/forestview_1.0.zip">Forest View Employee Management</a></li>
+                <p>Created GUI desktop application using <a style="color:#5cc3ec;">Python</a> with <a style="color:#5cc3ec;">Tkinter Library</a> that allows employers to enter employee’s into a database which they can view, edit,
+                    and search in a table format, with accurate auto-correction (programmed by me) for invalid data entry.
+                    App can import and export employee files to make it easy to view or keep for ex-employees in an archive somewhere and not keep them taking up space in the database.
+                    Employees also have the option to login to the application and view other employees but cannot edit any data unless they’re admin or manager.
+                </p>
                 </li></li>
             </ol>
         </div>        
@@ -112,20 +124,116 @@
 
     </div>
 
-    <div class="mid">
+    <div class="mid" id="mid">
         <h2>Previous Work</h2>
+        <br>
+        <h3 style="text-decoration: underline;">IT and Prototype Technician</h3>
+        <h4>
+            <a href="https://www.roushperformance.com/" target="_blank" id="roush">Roush</a> | 
+            <a href="https://www.ford.com" target="_blank" id="ford">Ford Motor Company</a>
+        </h4>
+        <h5>January 2023 - Present | Allen park, MI</h5>
         <ul>
-            <li>Licensed auto mechanic with over 4 years of experience. Performed diagnostic and troubleshooting procedures to find and identify root causes of mechanical issues. 
-                Operated tools, equipment and machinery.</li>
-            <li>Removed, replaced and repaired engines, transmissions and all other mechanical parts.</li>
-            <li>Ensured that customer and employee areas were kept clean and organized.</li>
-            <li>Supervised vehicle work also ensured timely completion of vehicle services.</li>
-            <li>Introduced new approaches to old or not optimal processes in sales and operations.</li>
-            <li>Managed inventory to ensure parts availability while minimizing inventory costs.</li>
-            <li>Analyzed the operation of the department and provides technical assistance to the employees of automobile parts.</li>
-            <li>Resolved customer complaints to mutual satisfaction.</li>
+            <li>Performed, diagnosed, and repaired prototype vehicle electrical and mechanical components</li>
+            <li>Bus query, Wireflashing, Software Update Troubleshooting, and FDRS proficient</li>
+            <li>Ensured that customer and employee areas were kept clean and organized</li>
+            <li>
+                Currently at Ford Motor Company, deploying, and troubleshooting 
+                Ford OTA (Over the air updates) 
+                consisting of resolution meetings with Ford engineers
+            </li>
+            <li>Created Python scripts for Ford to maximize OTA diagnostic efficiency</li>
+            <li>Certificate of recognition for first on time prototype delivery in 2023 - CX430</li>
+            <li>Replaced High Voltage electrical components, performed repairs on the R1S and R1T models with a team for 
+            Rivian in Normal, IL for duration of 1 year
+            </li>
         </ul>
 
+        <h3 style="text-decoration: underline;">Licensed Mechanic and Manager</h3>
+        <h4>
+            <a href="https://g.co/kgs/G7tuqDy" target="_blank" id="mansfield">Mansfield Auto Center</a>
+        </h4>
+        <h5>June 2016 - December 2020 | Detroit, MI</h5>
+        <ul>
+            <li>Replaced parts and performed routine maintenance in powertrain, transmission, driveline, suspension, HVAC, electrical, and braking systems</li>
+            <li>Developed and maintained relationships with customers and suppliers through account development</li>
+            <li>State of Michigan Mechanic License in Brakes and Braking Systems</li>
+        </ul>
+
+        <h3 style="text-decoration: underline;">Sales Associate</h3>
+        <h4>
+            <a id="goodyear">Goodyear</a>
+        </h4>
+        <h5>December 2020 - September 2021 | Eastpointe, MI</h5>
+        <ul>
+            <li>Followed procedures to ensure quality vehicle delivery, including negotiation of prices and services</li>
+        </ul>
+    </div>
+
+    <div class="education" id="education">
+        <h2>Accredited Education</h2>
+        
+        <h4>University of Michigan</h4>
+        <h5>September 2024 - Present | Dearborn, MI</h5>
+
+        <ul>
+            <li>Pursuant of Bachelor's Degree in Software Engineering</li>
+        </ul>
+
+        <h4>Wayne State University</h4>
+        <h5>September 2020 - September 2022 | Detroit, MI</h5>
+
+        <ul>
+            <li>
+                Created Forest View Employee Management: GUI desktop application using Python with Tkinter that allows employers 
+                to enter employee’s into a database which they can view, edit, and search in a table format, with accurate 
+                auto-correction (programmed by me) for invalid data entry
+            </li>
+            <br>
+            <li>
+                App can import and export employee files to make 
+                it easy to view or keep for ex-employees in an archive somewhere and not keep them taking up space in the database
+            </li>
+            <br>
+            <li>
+                Employees have the option to login to the application and view other employees but cannot edit any data 
+                unless they’re admin or manager
+            </li>
+            
+        </ul>
+
+        <h4>Henry Ford College</h4>
+        <h5>September 2018 - September 2020 | Dearborn, MI</h5>
+
+        <ul>
+            <li>
+                Created website and desktop-application for a customer with a pet grooming business on a team of 30, 
+                using PHP for server-side and back-end language alongside MySQL to request user data from a large database. 
+                JavaScript, HTML5, and CSS used for website interactivity, functionality, and design. Git used for source code management, 
+                tracking changes over time, and testing
+            </li>
+            <br>
+            <li>Used Microsoft SQL Server Management Studio for database, testing, and collecting data</li>
+        </ul>
+
+        <h4>Fordson High School</h4>
+        <h5>September 2014 - June 2018 | Dearborn, MI</h5>
+
+        <ul>
+            <li>Graduated with diploma</li>
+        </ul>
+    </div>
+
+    <div class="certs">
+        <h2>Certifications</h2>
+        <h4>Codecademy Certifications</h4>
+        <h5>Valid 2024</h5>
+
+        <ul>
+            <li>Computer Science Career Path</li>
+            <li>How to Implement Search Algorithms with Python</li>
+            <li>Learn Sorting Algorithms with Python</li>
+        </ul>
     </div>
 
     <footer>

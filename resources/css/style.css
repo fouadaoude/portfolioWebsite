@@ -282,7 +282,7 @@ nav li:hover {
     padding-bottom: 1rem;
 }
 
-.mid h2 {
+.mid h2, h3, h4, h5{
     padding-top: 1rem;
     padding-left: 5rem;
     color: #3f4b55;
@@ -291,6 +291,7 @@ nav li:hover {
     -ms-transition: color 0.4s;
     -o-transition: color 0.4s;
     transition: color 0.4s;
+    margin: 0;
 }
 
 .mid li {
@@ -305,8 +306,58 @@ nav li:hover {
     color: white;
 }
 
+.mid h3:hover {
+    color: white;
+}
+
+.mid h4 #roush {
+    text-decoration: none;
+    color: black;
+}
+
+.mid h4 #ford {
+    text-decoration: none;
+    color:black;
+}
+
+.mid #rivian {
+    color: #FFFF00;
+}
+
+.mid #mansfield {
+    text-decoration: none;
+    color: black;
+}
+
+.mid #goodyear {
+    text-decoration: none;
+    color: black;
+}
+
+.mid #mansfield:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.mid #roush:hover {
+    color: white;
+}
+
+.mid #ford:hover {
+    color:white;
+}
+
 .mid li:hover {
     color: white;
+}
+
+.mid li #ford {
+    color: white;
+    text-decoration: none;
+}
+
+.mid li #ford:hover {
+    color: #3f4b55;
 }
 
 .mid ul {
@@ -319,6 +370,104 @@ nav li:hover {
 /* .mid <end> */
 
 
+/* .education <start> */
+
+.education {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 1rem;
+}
+
+.education ul {
+    padding-left: 8rem;
+    list-style-type: circle;
+    color: #c5c9cc;
+}
+
+.education li {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.education li:hover {
+    color: white;
+}
+
+.education h2{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    color: white;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+    margin: 0;
+}
+
+.education h4 {
+    color: #c5c9cc;
+}
+
+.education h5 {
+    color: #9fd48c;
+}
+
+/* .education <end> */
+
+
+/* .certs <start> */
+
+.certs {
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 1rem;
+}
+
+.certs ul {
+    padding-left: 8rem;
+    list-style-type: circle;
+    color: #c5c9cc;
+}
+
+.certs li {
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.certs li:hover {
+    color: white;
+}
+
+.certs h2{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    color: white;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -ms-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+    margin: 0;
+}
+
+.certs h4 {
+    color: #c5c9cc;
+}
+
+.certs h5 {
+    color: #9fd48c;
+}
+
+/* .certs <end> */
 
 
 
@@ -336,6 +485,7 @@ nav li:hover {
 }
 
 .skills #languages {
+    padding-left: 0;
     -webkit-transition: color 0.4s;
     -moz-transition: color 0.4s;
     -ms-transition: color 0.4s;
@@ -384,6 +534,7 @@ nav li:hover {
 }
 
 .skills #database {
+    padding-left: 0;
     color: #cbd5d9;
     -webkit-transition: color 0.4s;
     -moz-transition: color 0.4s;
@@ -407,6 +558,7 @@ nav li:hover {
 }
 
 .skills #tools {
+    padding-left: 0;
     color: #ff7f7f;
     -webkit-transition: color 0.4s;
     -moz-transition: color 0.4s;
@@ -446,11 +598,13 @@ nav li:hover {
     padding-right: 5rem;
 }
 
-.projects h2 {
+.projects h2 {    
+    padding-top: 4%;
     color: white;
 }
 
 .projects h3 {
+    padding-left: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: #5cc3ec;
